@@ -1,15 +1,27 @@
 .app {
+  font-family: Arial, sans-serif;
   text-align: center;
-  font-family: Arial;
+  margin-top: 50px;
 }
 
-button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px;
-  width: 200px;
+.question-section {
+  margin-bottom: 20px;
+}
+
+.answer-section button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
   cursor: pointer;
 }
-button:hover {
-  background-color: #f0f0f0;
+
+.answer-section button:hover {
+  background-color: #45a049;
+}
+
+.score-section {
+  font-size: 20px;
+  margin-top: 20px;
 }
