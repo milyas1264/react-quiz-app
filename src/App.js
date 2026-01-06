@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { useState } from "react";
 import "./App.css";
 
@@ -21,6 +23,16 @@ function App() {
       question: "JavaScript kis type ki language hai?",
       options: ["Programming", "Markup", "Styling"],
       answer: "Programming"
+    },
+    {
+      question: "CSS ka full form kya hai?",
+      options: ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
+      answer: "Cascading Style Sheets"
+    },
+    {
+      question: "DOM ka full form kya hai?",
+      options: ["Document Object Model", "Data Object Model", "Desktop Object Model"],
+      answer: "Document Object Model"
     }
   ];
 

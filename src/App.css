@@ -1,6 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkgray;
+}
 .app {
   text-align: center;
   margin-top: 50px;
+  font-family: Arial, sans-serif;
+  border: 3px groove #ccc;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: cornflowerblue;
 }
 
 button {
@@ -8,4 +20,5 @@ button {
   margin: 10px auto;
   padding: 10px 20px;
   cursor: pointer;
+  width: 90%; ;
 }
