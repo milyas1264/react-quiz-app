@@ -1,7 +1,8 @@
 /* eslint-disable */
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
+
 
 function App() {
   const [index, setIndex] = useState(0);
